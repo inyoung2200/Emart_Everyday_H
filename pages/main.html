@@ -8,7 +8,7 @@
     <title>Emart Everyday</title>
 
     <!-- css -->
-    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -27,9 +27,7 @@
             <div class="header_bottom">
                 <div class="search">
                     <input class="search_input" type="text" placeholder="상품을 검색해보세요"></input>
-                    <button class="search_btn" type="submit" title="검색">
-                        <img src="../assets/icon/drawable/icon_search_btn.svg">
-                    </button>
+                    <button class="search_btn" type="submit" title="검색"></button>
                 </div>
             </div>
         </div>
@@ -38,16 +36,66 @@
     <!-- nav -->
     <main id="banner">
         <div class="b_container">
-            <div class="text_area">
+
+
+            <div class="slider_wrapper">
+                <div class="slider_img">
+                    <div class="slider">
+                        <img src="../assets/img/banner.png">
+                        <!-- <span>이미지1</span> -->
+                        <div class="text_area">
+                            <h1 class="text1">바캉스의 시작은<br><span class="er">에브리데이와<br>함께!</span></h1>
+                            <p class="text2">#30%할인<br>#5만원 이상 무료배송<br>#혜자용량</p>
+                        </div>
+                        <div class="bottom_area">
+                            <div class="page_view"><span>2/12</span></div>
+                            <a class="page_btn">
+                                <img src="../assets/icon/drawable/icon_more.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <img src="../assets/img/banner.png">
+                        <!-- <span>이미지2</span> -->
+                        <div class="text_area">
+                            <h1 class="text1">바캉스의 시작은<br><span class="er">에브리데이와<br>함께!</span></h1>
+                            <p class="text2">#30%할인<br>#5만원 이상 무료배송<br>#혜자용량</p>
+                        </div>
+                        <div class="bottom_area">
+                            <div class="page_view"><span>2/12</span></div>
+                            <a class="page_btn">
+                                <img src="../assets/icon/drawable/icon_more.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <img src="../assets/img/banner.png">
+                        <!-- <span>이미지3</span> -->
+                        <div class="text_area">
+                            <h1 class="text1">바캉스의 시작은<br><span class="er">에브리데이와<br>함께!</span></h1>
+                            <p class="text2">#30%할인<br>#5만원 이상 무료배송<br>#혜자용량</p>
+                        </div>
+                        <div class="bottom_area">
+                            <div class="page_view"><span>2/12</span></div>
+                            <a class="page_btn">
+                                <img src="../assets/icon/drawable/icon_more.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="text_area">
                 <h1 class="text1">바캉스의 시작은<br><span class="er">에브리데이와<br>함께!</span></h1>
-                <p class="text2">#30%할인<br>#5만원 이상 무료배송</p>
+                <p class="text2">#30%할인<br>#5만원 이상 무료배송<br>#혜자용량</p>
             </div>
             <div class="bottom_area">
                 <div class="page_view"><span>2/12</span></div>
                 <a class="page_btn">
                     <img src="../assets/icon/drawable/icon_more.svg">
                 </a>
-            </div>
+            </div> -->
         </div>
     </main>
     <nav id="category">
@@ -96,6 +144,8 @@
     <!-- contents -->
     <div id="cont_wrap">
         <div class="cont_container">
+
+            <!-- section1 -->
             <section class="cont1_sale">
                 <div class="sale_header">
                     <h3 class="sale_title">지금만 할인해요</h3>
@@ -104,88 +154,126 @@
                     </div>
                 </div>
                 <div class="sale_main">
-                    <div class="product1">
-                        <div class="p_img"></div>
-                        <div class="p_brand">No Brand</div>
-                        <div class="p_explain">노브랜드 스테인레스 이중컵<br>노브랜드 스테인레스 이중컵</div>
-                        <div class="p_price">4,300 <span>원</span></div>
-                        <div class="p_basket"></div>
-                    </div>
-                    <div class="product2">
-                        <div class="p_img"></div>
-                        <div class="p_brand">No Brand</div>
-                        <div class="p_explain">노브랜드 스테인레스 이중컵<br>노브랜드 스테인레스 이중컵</div>
-                        <div class="p_price">4,300 <span>원</span></div>
-                        <div class="p_basket"></div>
-                    </div>
-                    <div class="product3">
-                        <div class="p_img"></div>
-                        <div class="p_brand">No Brand</div>
-                        <div class="p_explain">노브랜드 스테인레스 이중컵<br>노브랜드 스테인레스 이중컵</div>
-                        <div class="p_price">4,300 <span>원</span></div>
-                        <div class="p_basket"></div>
+                    <div class="dsp_list">
+                        <ul class="prdt_list">
+                            <li class="product1">
+                                <div class="p_img"></div>
+                                <div class="list_info">
+                                    <div class="p_brand">No Brand</div>
+                                <div class="p_explain">노브랜드 스테인레스 이중컵<br>노브랜드 스테인레스 이중컵</div>
+                                <div class="p_price">4,300 <span>원</span></div>
+                                </div>
+                                <div class="p_basket"></div>
+                            </li>
+                            <li class="product2">
+                                <div class="p_img"></div>
+                                <div class="p_brand">No Brand</div>
+                                <div class="p_explain">노브랜드 스테인레스 이중컵<br>노브랜드 스테인레스 이중컵</div>
+                                <div class="p_price">4,300 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                            <li class="product3">
+                                <div class="p_img"></div>
+                                <div class="p_brand">No Brand</div>
+                                <div class="p_explain">노브랜드 스테인레스 이중컵<br>노브랜드 스테인레스 이중컵</div>
+                                <div class="p_price">4,300 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
+
+            <!-- section2 -->
             <section class="cont2_pluse">
                 <div class="pluse_header">
                     <h3 class="pluse_title">하나 더 드려요</h3>
                 </div>
                 <div class="pluse_nav">
-                    <a class="n_fruit"><span>과일</span></a>
-                    <a class="n_salad"><span>채소 / 샐러드</span></a>
-                    <a class="n_cold"><span>냉장 / 냉동</span></a>
-                    <a class="n_instant"><span>즉석식품</span></a>
-                    <a class="n_fish"><span>수산</span></a>
+                    <ul class="cate_list">
+                        <li class="tab_anc on"><a>과일</a></li>
+                        <li class="tab_anc"><a>채소 / 샐러드</a></li>
+                        <li class="tab_anc"><a>냉장 / 냉동</a></li>
+                        <li class="tab_anc"><a>즉석식품</a></li>
+                        <li class="tab_anc"><a>수산</a></li>
+                    </ul>
                 </div>
-                <div class="pluse_main">
-                    <div class="product1">
-                        <div class="p_img"></div>
-                        <div class="p_explain">당도선별 수박 7kg 미만</div>
-                        <div class="p_price">14,900 원</div>
+                <div class="mpc_tab_wrap">
+                    <div class="mpc_prod_list_area mpc_tab_cont on">
+                        <div class="dsp_list">
+                            <ul class="prdt_list">
+                                <li class="product1">
+                                    <div class="p_img">
+                                        <a class="p_basket"></a>
+                                    </div>
+                                    <div class="p_explain">당도선별 수박 7kg 미만</div>
+                                    <div class="p_price">14,900 원</div>
+                                </li>
+                                <li class="product2">
+                                    <div class="p_img">
+                                        <a class="p_basket"></a>
+                                    </div>
+                                    <div class="p_explain">당도선별 수박 7kg 미만</div>
+                                    <div class="p_price">4,300 원</div>
+                                </li>
+                                <li class="product3">
+                                    <div class="p_img">
+                                        <a class="p_basket"></a>
+                                    </div>
+                                    <div class="p_explain">당도선별 수박 7kg 미만</div>
+                                    <div class="p_price">4,300 원</div>
+                                </li>
+                                <li class="product4">
+                                    <div class="p_img">
+                                        <a class="p_basket"></a>
+                                    </div>
+                                    <div class="p_explain">당도선별 수박 7kg 미만</div>
+                                    <div class="p_price">4,300 원</div>
+                                </li>
+                            </ul>
                     </div>
-                    <div class="product2">
-                        <div class="p_img"></div>
-                        <div class="p_explain">당도선별 수박 7kg 미만</div>
-                        <div class="p_price">4,300 원</div>
-                    </div>
-                    <div class="product3">
-                        <div class="p_img"></div>
-                        <div class="p_explain">당도선별 수박 7kg 미만</div>
-                        <div class="p_price">4,300 원</div>
-                    </div>
-                    <div class="product4">
-                        <div class="p_img"></div>
-                        <div class="p_explain">당도선별 수박 7kg 미만</div>
-                        <div class="p_price">4,300 원</div>
-                    </div>
+                    
+                </div>
+                <div class="mpc_tab_cont">tab02</div>
+                <div class="mpc_tab_cont">tab03</div>
+                <div class="mpc_tab_cont">tab04</div>
+                <div class="mpc_tab_cont">tab05</div>
                 </div>
             </section>
+
+            <!-- section3 -->
             <section class="cont3_delivery">
                 <div class="delivery_header">
                     <h3 class="delivery_title">신선함을 집 앞까지</h3>
                 </div>
                 <div class="delivery_main">
-                    <div class="product1">
-                        <div class="p_img"></div>
-                        <div class="p_explain">CJ행복한콩 몽글몽글 순두부 기획 350g*2</div>
-                        <div class="p_price">1,850 <span>원</span></div>
-                        <div class="p_basket"></div>
+                    <div class="dsp_list">
+                        <ul class="prdt_list">
+                            <li class="product1">
+                                <div class="p_img"></div>
+                                <div class="p_explain">CJ행복한콩 몽글몽글 순두부 기획 350g*2</div>
+                                <div class="p_price">1,850 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                            <li class="product2">
+                                <div class="p_img"></div>
+                                <div class="p_explain">CJ행복한콩 몽글몽글 순두부 기획 350g*2</div>
+                                <div class="p_price">1,850 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                            <li class="product3">
+                                <div class="p_img"></div>
+                                <div class="p_explain">CJ행복한콩 몽글몽글 순두부 기획 350g*2</div>
+                                <div class="p_price">1,850 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="product2">
-                        <div class="p_img"></div>
-                        <div class="p_explain">CJ행복한콩 몽글몽글 순두부 기획 350g*2</div>
-                        <div class="p_price">1,850 <span>원</span></div>
-                        <div class="p_basket"></div>
-                    </div>
-                    <div class="product3">
-                        <div class="p_img"></div>
-                        <div class="p_explain">CJ행복한콩 몽글몽글 순두부 기획 350g*2</div>
-                        <div class="p_price">1,850 <span>원</span></div>
-                        <div class="p_basket"></div>
-                    </div>
+
                 </div>
             </section>
+
+            <!-- section4 -->
             <section class="cont4_ranking">
                 <div class="ranking_header">
                     <div class="header_con">
@@ -212,16 +300,21 @@
                                 <div class="ranksub"></div>
                             </div>
                             <div class="rank2_con_bottom">
-                                <div class="product1">
-                                    <div class="p_img"></div>
-                                    <div class="p_explain">행복한콩 몽글몽글 순두부 기획 350g*2</div>
-                                    <div class="p_price">1,850 <span>원</span></div>
+                                <div class="dsp_list">
+                                    <ul class="prdt_list">
+                                        <li class="product1">
+                                            <div class="p_img"></div>
+                                            <div class="p_explain">행복한콩 몽글몽글 순두부 기획 350g*2</div>
+                                            <div class="p_price">1,850 <span>원</span></div>
+                                        </li>
+                                        <li class="product2">
+                                            <div class="p_img"></div>
+                                            <div class="p_explain">행복한콩 몽글몽글 순두부 기획 350g*2</div>
+                                            <div class="p_price">1,850 <span>원</span></div>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="product2">
-                                    <div class="p_img"></div>
-                                    <div class="p_explain">행복한콩 몽글몽글 순두부 기획 350g*2</div>
-                                    <div class="p_price">1,850 <span>원</span></div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -258,28 +351,35 @@
 
                 </div>
             </section>
+
+            <!-- section5 -->
             <section class="cont5_special">
                 <div class="special_header">
+                    <img src="../assets/icon/drawable-xxxhdpi/pulmuone.png" class="pulmuonelogo">
                     <h3 class="special_title">풀무원 기획상품</h3>
                 </div>
                 <div class="special_main">
-                    <div class="product1">
-                        <div class="p_img"></div>
-                        <div class="p_explain">풀무원 느리게만든 한모 340g</div>
-                        <div class="p_price">4,080 <span>원</span></div>
-                        <div class="p_basket"></div>
-                    </div>
-                    <div class="product2">
-                        <div class="p_img"></div>
-                        <div class="p_explain">풀문원 고소하고 부드럽게 구운란 20구 700g</div>
-                        <div class="p_price">2,380 <span>원</span></div>
-                        <div class="p_basket"></div>
-                    </div>
-                    <div class="product3">
-                        <div class="p_img"></div>
-                        <div class="p_explain">풀무원 느리게만든 한모 340g</div>
-                        <div class="p_price">4,080 <span>원</span></div>
-                        <div class="p_basket"></div>
+                    <div class="dsp_list">
+                        <ul class="prdt_list">
+                            <li class="product1">
+                                <div class="p_img"></div>
+                                <div class="p_explain">풀무원 느리게만든 한모 340g</div>
+                                <div class="p_price">4,080 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                            <li class="product2">
+                                <div class="p_img"></div>
+                                <div class="p_explain">풀문원 고소하고 부드럽게 구운란 20구 700g</div>
+                                <div class="p_price">2,380 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                            <li class="product3">
+                                <div class="p_img"></div>
+                                <div class="p_explain">풀무원 느리게만든 한모 340g</div>
+                                <div class="p_price">4,080 <span>원</span></div>
+                                <div class="p_basket"></div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -291,10 +391,7 @@
     <footer id="footer">
         <div class="footer_container">
             <div class="footer_top">
-                <div class="title">
-                    <img>
-                    <h3>상계점</h3>
-                </div>
+                <h3>상계점</h3>
                 <div class="contents">
                     <p>
                         주소 : 서울 노원구 동일로 1608, 동산빌딩 1F
@@ -302,6 +399,8 @@
                         영업시간 : 10:00 ~ 22:00
                         <br>
                         휴무일 : 5/14, 5/30
+                        <br>
+                        대표번호 : 02-2133-5698
                     </p>
                 </div>
             </div>
@@ -326,6 +425,8 @@
                         본사 : 서울특별시 성동구 성수일로 56, 8/9/10층
                         <br>
                         고객센터 : <span>02 - 380 - 5123</span>
+                        <br>
+                        (입점, 제휴 문의,ecrtemarteveryday.co.kr)
                     </p>
                     <a>사업자정보확인</a>
                 </div>
@@ -336,9 +437,14 @@
                 <div class="up_btn">
                     <div class="img"></div>
                 </div>
-                <div class="basket_btn">
-                    <div class="img"></div>
-                </div>
+                <button type="button" class="basket_btn">
+                    <p>
+                        장바구니
+                        <span class="num">
+                            <span>99</span>
+                        </span>
+                    </p>
+                </button>
             </div>
 
         </div>
@@ -346,9 +452,9 @@
     <!-- //footer -->
 
     <!-- action menu -->
-    <div id="menu">
+    <div class="menu">
         <div class="m_container">
-            <div class="menu hide">
+            <div class="actioin_menu">
                 <a class="cate">
                     <div class="icon"></div>
                     <p>카테고리</p>
@@ -371,31 +477,88 @@
                 </a>
             </div>
         </div>
-
     </div>
     <!-- //action menu -->
 
 
-    <scrip src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></scrip>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
     <script>
-        var prevScrollTop = 0;
-        var nowScrollTop = 0;
+        // 스크롤시 하단 메뉴바 액션
+        let nowScrollTop;
+        let prevScrollTop = 0;
 
-        function Delta() {
-            return prevScrollTop - nowScrollTop > 0 ? 'up' : 'down';
-        };
-        $(window).on('scroll', function () {
-            nowScrollTop = $(this).scrollTop();
-            if (Delta() == 'down') {
-                $("#menu").addClass("hide")
-            }
-            if (Delta() == 'up') {
-                $("#menu").removeClass("hide")
-            }
-            prevScrollTop = nowScrollTop;
+        $(window).scroll(function () {
+            nowScrollTop = true;
         });
+
+        setInterval(() => {
+            if (nowScrollTop) {
+                nowScrollTop = false;
+                hasScroll();
+            }
+        }, 300)
+
+        function hasScroll() {
+            let scroll = $(this).scrollTop();
+
+            if (scroll > prevScrollTop) {
+                //스크롤을 내렸을 때를 의미
+                $(".menu").addClass("hide");
+                $(".up_btn").removeClass("hide");
+            } else {
+                //스크롤을 올렸을 때를 의미
+                $(".menu").removeClass("hide");
+                $(".up_btn").addClass("hide");
+            }
+
+            prevScrollTop = scroll;
+        };
+
+        //검색창 액션
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+
+            if (scroll > 0) {
+                $('#header').addClass("fix");
+                $('.header_bottom').addClass("hide");
+                // $('.header_bottom .search').addClass("hide");
+            } else {
+                $('#header').removeClass("fix");
+                $('.header_bottom').removeClass("hide");
+                // $('.header_bottom .search').removeClass("hide");
+            }
+        });
+
+        //메인배너 슬라이드
+        const sliderWrap = $(".slider_wrapper");
+        const sliderImg = $(".slider_img");
+        const slider = $(".slider");
+
+        let currentIndex = 0;
+        let sliderwidth = slider.width();
+        let sliderEaseing = "easeOutQuint"
+
+        setInterval(function () {
+            sliderImg.animate({
+                left: -sliderwidth
+            }, 400, sliderEaseing, function () {
+                $(".slider:first-child").appendTo(sliderImg);
+                sliderImg.css("left", "");
+            })
+        }, 3000)
+
+        // 하나더드려요 탭메뉴
+
+        $(function () {
+            $(document).on("click", '.cate_list .tab_anc', function (e) {
+                e.preventDefault();
+                var index = $(this).index();
+                $('.mpc_tab_cont').eq(index).addClass("on").siblings().removeClass('on');
+                $(this).addClass('on').siblings().removeClass('on');
+            });
+        })
     </script>
 </body>
 
